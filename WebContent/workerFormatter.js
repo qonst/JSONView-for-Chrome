@@ -28,7 +28,7 @@ function valueToHTML(value) {
 		else
 			output += decorateWithSpan('"' + value + '"', "type-string");
 	else if (valueType == "boolean")
-		output += decorateWithSpan(value, "type-boolean");
+		output += decorateWithSpan(value, "type-boolean boolean-"+value);
 
 	return output;
 }
