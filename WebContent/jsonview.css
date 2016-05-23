@@ -11,8 +11,12 @@ body {
   color: gray;
 }
 
-.type-boolean {
+.boolean-false {
   color: firebrick;
+}
+
+.boolean-true {
+  color: #0f0;
 }
 
 .type-number {
